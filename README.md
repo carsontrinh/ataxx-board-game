@@ -2,7 +2,7 @@
 A command-line strategy game, featuring a minimax AI. New to Ataxx? Learn the rules [here](https://en.wikipedia.org/wiki/Ataxx#Game_play).
 
 ## How to get started
-Navigate to `ataxx-board-game/ataxx/` and run `java -ea ataxx.Main`.
+Navigate to `ataxx-board-game/` and run `java -ea ataxx.Main`.
 ## Start/End Commands
 * **clear** Abandons the current game, resets the board, and enters the setup state.
 * **start** Enters the playing state and begins the game. First player is determined by where the setup left off (`red` player moves first with the default configuration).
