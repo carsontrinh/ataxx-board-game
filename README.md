@@ -1,7 +1,9 @@
 # ataxx-board-game
 A command-line strategy game, featuring a minimax AI. New to Ataxx? Learn the rules [here](https://en.wikipedia.org/wiki/Ataxx#Game_play).
 
-**Tip: the 7x7 board consists of columns a-g and rows 1-7.**
+**Tip #1:** the 7x7 board consists of columns a-g and rows 1-7.
+
+**Tip #2:** Is the AI too difficult to defeat? Try enabling AIs for both players to learn the best moves (or to see the best of the best go at each other)!
 ## How to get started
 Navigate to `ataxx-board-game/` and run `java -ea ataxx.Main`.
 ## Start/End Commands
