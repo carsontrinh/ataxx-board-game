@@ -1,0 +1,43 @@
+# Set up the game and force Blue AI to pass.
+java -ea ataxx.Main
+block a2
+block a3
+block b1
+block b2
+block b3
+block c1
+block c2
+a7-c5
+a1-c3
+c5-c4
+g7-e5
+g1-e3
+e5-g7
+start
+e3-e5
+@<Blue passes.
+dump
+@<===
+@<  - X X - X X b 
+@<  X X X - X X X 
+@<  X X r - r X X 
+@<  - - r - - - - 
+@<  X X r - - X X 
+@<  X X X - X X X 
+@<  - X X - X X - 
+@<===
+e5-g4
+@<Blue moves g7-e5.
+dump
+@<===
+@<  - X X - X X - 
+@<  X X X - X X X 
+@<  X X r - b X X 
+@<  - - r - - - r 
+@<  X X r - - X X 
+@<  X X X - X X X 
+@<  - X X - X X - 
+@<===
+g4-e4
+@<Red wins.
+quit

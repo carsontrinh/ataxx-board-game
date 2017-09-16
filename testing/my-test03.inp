@@ -1,0 +1,47 @@
+# Your very own integration test!
+# 26 repeated jumps before start with no intervening extends. Should be allowed.
+
+java -ea ataxx.Main
+
+manual Blue
+
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+start
+dump
+@<===
+@<  r - - - - - b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
+quit

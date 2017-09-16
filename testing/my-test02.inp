@@ -1,0 +1,49 @@
+# Your very own integration test!
+# 25 repeated jumps after start with no intervening extends. Results in a tie.
+
+java -ea ataxx.Main
+
+manual Blue
+start
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+a1-c1
+c7-a7
+c1-a1
+a7-c7
+# Following should not take affect
+a1-c1
+c7-a7
+c1-a1
+
+@<Draw.
+dump
+@<===
+@<  - - r - - - b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
+quit
